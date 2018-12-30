@@ -1,0 +1,180 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.btn {
+	border-radius:24px ;
+}
+.navbar-nav .nav-link {
+	font-size:14px;
+}
+.hero {
+	background: url('../asset/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:700px;
+	font-family:'Montserrat', sans-serif;
+	color:white;
+}
+
+.welcome_page {
+
+	.block-one{
+		margin-top:60px;
+	}	
+	.block-two{
+		margin-top:80px;
+		h4 {
+			font-weight:bold;
+		}
+		p {
+			font-size:14px;
+		}
+	}
+	
+	h1 {
+		font-family: 'Montserrat', cursive;
+		font-size:62px;
+		font-weight:bold;
+	}
+
+	a {
+		text-decoration:none;
+		i {
+			display:flex;
+			justify-content:center;
+			animation-name:arrow;
+			animation-duration:2s;
+			animation-iteration-count: infinite;
+		}
+	}
+
+	@keyframes arrow {
+	    0% {padding-top:20px}
+	    50% {padding-top:0px}
+		100%{padding-top:20px}
+	}
+}
+
+
+.services-block{
+	margin-top:100px;
+
+	.ser_block {
+		margin-top:150px;
+		display:flex;
+		align-items:center;
+		grid-gap:200px;
+		img {
+			filter: hue-rotate(20deg);
+			padding:20px;
+		}
+	}
+}
+
+.news-block {
+	margin-top:100px;
+	input{
+		border-radius:24px;
+	}
+	button{
+		font-weight:bold;
+	}
+}
+
+
+.blog-block {
+	margin-top:100px;
+	button {
+		display:grid;
+		justify-content:center;
+	}
+}
+
+footer {
+
+	p {
+		text-align:center;
+		font-size:20px;
+	}
+	padding:30px 20px;
+	.social {
+		display:flex;
+		justify-content:space-between;
+	}
+	.icon {
+		display:inline-block;
+		background:white;
+		text-align:center;
+		padding:12px 20px;
+		border-radius:50%;
+
+	}
+}
+
+// -------------------- Work Page style start here ------------------------------------
+
+.card {
+	border:none;
+	.btn {
+
+	}
+}
+.hero-2{
+	background: url('../asset/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:300px;
+	font-family:'Montserrat', sans-serif;
+	color:white;
+}
+
+
+.work_page {
+	text-align:center;
+	h1 {
+		font-size:52px;
+		font-weight:bold;
+	}
+
+	
+}
+
+.second-nav {
+	.active{
+		color:#ffc107;
+	}
+	.nav {
+		display:flex;
+		justify-content:space-between;
+	}
+}
+
+.project-block {
+
+	.row {
+		.btn {
+			border-radius:4px ;
+		}
+	}
+}
+
+// ------------------------------ About page style---------------------------
+
+.bio {
+	img{
+		filter:grayscale(100%);
+	}
+	.lead {
+		padding-bottom: 15px;
+		border-bottom:4px solid #ffc107;
+	}
+}
+
+// -------------------------contact page style -----------------------------------
+
+.contact-block {
+	margin-top:130px;
+	.btn {
+		border-radius:4px ;
+	}
+}
